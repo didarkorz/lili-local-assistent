@@ -1,0 +1,71 @@
+# Dependencies, build output and exports
+node_modules/
+/dist/
+/dist-electron/
+/release/
+/exports/
+coverage/
+*.tsbuildinfo
+
+# Local AI engines, downloaded repositories and model weights
+/whisper/
+/piper/
+/llama.cpp/
+/openai-whisper/
+/Qwen3-4B/
+/Qwen3-4B-GGUF/
+*.gguf
+*.safetensors
+*.onnx
+*.pt
+*.pth
+*.bin
+*.exe
+*.dll
+*.zip
+*.7z
+
+# Private assistant data and generated files
+/draftforlili/
+userData/
+lili-data.json
+lili-memory.json
+lili-notes.json
+telegram-contacts.json
+tasks.json
+journal/
+commands/
+screenshots/
+*.log
+*.wav
+*.webm
+
+# Credentials and machine-specific settings
+.env
+.env.*
+!.env.example
+*.local
+*.local.*
+*.pem
+*.key
+*.pfx
+*.p12
+.npmrc
+.claude/
+.codex/
+.agents/
+.aws/
+.vscode/
+.idea/
+
+# Python caches and environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini

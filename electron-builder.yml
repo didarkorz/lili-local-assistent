@@ -1,0 +1,22 @@
+appId: com.local.lili
+productName: Lili
+
+directories:
+  output: release
+
+files:
+  - dist
+  - dist-electron
+
+# Windows installer
+win:
+  target:
+    - target: nsis
+      arch:
+        - x64
+
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: true
+  shortcutName: Lili
